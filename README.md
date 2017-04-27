@@ -18,7 +18,9 @@ Pro Git 2/E
 
 * 설치
     * Ubuntu
-    ```$ sudo apt-get install git```
+    ```bash
+    $ sudo apt-get install git
+    ```
     * Mac
     [GitHub For Mac](http://mac.github.com)
     * Windows
@@ -27,33 +29,47 @@ Pro Git 2/E
         * 라이브러리
         * 의존성
         * 바이너리 다운로드 > 압축해제 후
-        ```$ make configure
+        ```bash
+        $ make configure
         $ ./configure --prefix=/usr
         $ make all doc info
-        $ sudo make install install-doc install-html install-info```
+        $ sudo make install install-doc install-html install-info
+        ```
 
 * 설정
     * 모든사용자
         * /etc/config 수정
-        ```$ git config --system
+        ```bash
+        $ git config --system
+        ```
     * 사용자별
         * ~/.gitconfig, ~/.config/git/config
-        ```$ git config --global
+        ```bash
+        $ git config --global
+        ```
     * 특정저장소
         * .git/config
     * 사용자 정보
-        ```$ git config --global user.name "내이름"
-        $ git config --global user.email "내이메일"```
+        ```bash
+        $ git config --global user.name "내이름"
+        $ git config --global user.email "내이메일"
+        ```
     * 편집기
-        ```$ git config --global core.editor emacs
+        ```bash
+        $ git config --global core.editor emacs
+        ```
     * 확인
-        ```$ git config --list
-        $ git config user.name```
+        ```bash
+        $ git config --list
+        $ git config user.name
+        ```
 
 * 도움말
-    ```$ git help <verb>
+    ```bash
+    $ git help <verb>
     $ git <verb> --help
-    $ man git <verb>```
+    $ man git <verb>
+    ```
 
 
 
