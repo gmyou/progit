@@ -35,17 +35,17 @@ Pro Git 2/E
 * 설정
     * 모든사용자
         * /etc/config 수정
-        ```$ git config --system```
+        ```$ git config --system
     * 사용자별
         * ~/.gitconfig, ~/.config/git/config
-        ```$ git config --global```
+        ```$ git config --global
     * 특정저장소
         * .git/config
     * 사용자 정보
         ```$ git config --global user.name "내이름"
         $ git config --global user.email "내이메일"```
     * 편집기
-        ```$ git config --global core.editor emacs```
+        ```$ git config --global core.editor emacs
     * 확인
         ```$ git config --list
         $ git config user.name```
@@ -53,7 +53,7 @@ Pro Git 2/E
 * 도움말
     ```$ git help <verb>
     $ git <verb> --help
-    $ man git <verb>
+    $ man git <verb>```
 
 
 
